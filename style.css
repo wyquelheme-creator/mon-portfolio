@@ -1,0 +1,199 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('cyberpunk-pixel-art-0wsff2qqmw168u7t.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  box-sizing: border-box;
+}
+
+
+/* ---- NAVBAR ---- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em 4vw 0 4vw;
+}
+
+.nav-left, .nav-center, .nav-right {
+  display: flex;
+  gap: 3.5em;
+  align-items: center;
+}
+
+.nav-left {
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.nav-center {
+  justify-content: center;
+  flex: 1;
+}
+
+.nav-right {
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Press Start 2P', 'Roboto', sans-serif;
+  font-weight: bold;
+  padding: 0.4em 0.7em;
+  font-size: 0.93em;
+  text-shadow: 2px 2px 0 #222, 4px 4px 6px #66224499;
+  letter-spacing: 0.06em;
+}
+
+/* ---- TITRES ---- */
+
+.center-title {
+  text-align: center;
+  margin-top: 10vh;
+  user-select: none;
+}
+
+.pixel-art-text .subtitle {
+  display: block;
+  font-family: 'Press Start 2P', 'Roboto', sans-serif;
+  font-size: 1.45em;
+  color: #20edff;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  margin-bottom: 0.6em;
+  text-shadow:
+    2px 2px 0 #222,
+    3px 3px 0 #444,
+    0 4px 12px #25537c88;
+}
+
+.pixel-art-text .main-title {
+  display: block;
+  font-family: 'Press Start 2P', 'Roboto', sans-serif;
+  font-size: 5.2em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  /* Effet contour + ombre style "Deck" */
+  text-shadow:
+    3px 3px 0 #a53fad,
+    8px 8px 0 #222,
+    0 10px 12px #a53fad77;
+  background: linear-gradient(180deg, #fff 30%, #e28bc9 65%, #7e1eb6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0.5em;
+}
+
+/* ---- SUPPRESSION CADRE ---- */
+.main-container {
+  /* bordure retirée */
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fond image cyberpunk 2 en bas jsp mais ça marche */
+.page2 {
+  min-height: 100vh;
+  width: 100vw;
+  background-position
+  background-size: cover;
+  display: flex;
+  align-items: self-end; /* Centrage vertical du bloc */
+  justify-content: center; /* Centrage horizontal du bloc */
+}
+
+
+
+
+
+
+
+/* ===== FOND DU BLOG ===== */
+.blog-page {
+  background: url('continuation_of_a_pixel_art_cyberpunk_cityscape_at_dusk_matching_the_upper_part_of_a_previous_image_vp7x9pwxd7idtafb360c_2.png')
+              no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* ===== GRILLE ===== */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  width: 90%;
+  max-width: 1200px;
+  margin: 8vh auto;
+  gap: 20px;
+}
+
+/* Zones EXACTES que tu as données */
+.div1 { grid-area: 2 / 4 / 4 / 5; }
+.div2 { grid-area: 2 / 5 / 4 / 6; }
+
+/* ===== IMAGES ===== */
+.img-card {
+  background: rgb(156, 156, 156);
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(2px);
+  text-align: center;
+ box-shadow: 0 0 60px hsl(209, 74%, 50%); 
+}
+
+.img-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+/* ===== BOUTON TÉLÉCHARGER ===== */
+.download-btn {
+  display: inline-block;
+  padding: 10px 18px;
+  background: #8636ff;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 0.7em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #000;
+  transition: 0.2s;
+}
+
+.download-btn:hover {
+  background: #e97dff;
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+/* ---- FOND SPÉCIAL POUR LA PAGE PROJECTS ---- */
+.projects-page {
+  background: url('continuation_of_a_pixel_art_cyberpunk_cityscape_at_dusk_matching_the_upper_part_of_a_previous_image_p8ycnbrbf587nqhi8w47_3.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+
