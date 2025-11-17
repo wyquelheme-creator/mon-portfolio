@@ -1,0 +1,5 @@
+title: "Portfolio Wy Quelheme"
+description: "Étudiant BTS SIO"
+baseurl: ""  # Laisse vide si dépôt s'appelle username.github.io
+url: "https://wyquelheme-creator.github.io"
+theme: jekyll-theme-minimal
